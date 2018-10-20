@@ -1,6 +1,6 @@
 <?php
   session_start();
-  include_once $_SERVER['DOCUMENT_ROOT'] . '/bdpa-loans/db.php';
+  include_once $_SERVER['DOCUMENT_ROOT'] . '/echocash/db.php';
 ?>
 
 <!DOCTYPE html>
@@ -11,9 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/bdpa-loans/web-assets/css/bootstrap.min.css?>"> <!--I don't know why that href works necessarily. -->
+    <link rel="stylesheet" href="/echocash/web-assets/css/bootstrap.min.css?>">
 
     <title><?php echo $page_title ?></title>
   </head>
   <body>
-    
