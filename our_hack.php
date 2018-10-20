@@ -33,6 +33,20 @@
             <p>Echo Cash is a method of paying and requesting digital cash to
                 friends, family, and vendors, but via voice commands given to
                 Amazon Elexa.</p>
+                <table align="center">
+                  <tr>
+                    <td class="our_hack">Languages:</td>
+                    <td>HTML/PHP, CSS, Javascript</td>
+                  </tr>
+                  <tr>
+                    <td class="our_hack">APIs & Frameworks:</td>
+                    <td>NCR Transaction Document Management, Alexa SKill Kit</td>
+                  </tr>
+                  <tr>
+                    <td class="our_hack">Database Management:</td>
+                    <td>MySQL</td>
+                  </tr>
+                </table>
         </div>
 </body>
 </html>

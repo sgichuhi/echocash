@@ -93,6 +93,14 @@ th, td {
   text-align: center;
 }
 
+table {
+  border-spacing: 50px 0;
+}
+
+td {
+  padding: 10px 0;
+}
+
 #intro {
     font-size: 4em;
 }
@@ -105,5 +113,6 @@ th, td {
     color: #E89B1E;
 }
 
-#teamInfo {
+.our_hack {
+  font-weight: bold;
 }

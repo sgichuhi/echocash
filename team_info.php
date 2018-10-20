@@ -31,7 +31,7 @@
             <h1 id="intro">It's <span id="fancy">Abstract Hackers</span></h1>
             <p>Meet the hackers!</p>
             <div id="teamInfo">
-                      <table style="width:100%">
+                      <table align="center">
                         <tr>
                           <th></th>
                           <th>Name:</th>
