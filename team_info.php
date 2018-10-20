@@ -14,13 +14,13 @@
             <a href="" class="nav-link">Login</a>
         </li>
           <li>
-              <a href="team_info.html" class="nav-link">Team Info</a>
+              <a href="team_info.php" class="nav-link">Team Info</a>
           </li>
           <li>
-              <a href="our_hack.html" class="nav-link">Our Hack</a>
+              <a href="our_hack.php" class="nav-link">Our Hack</a>
           </li>
           <li>
-              <a href="index.html" class="nav-link">Home</a>
+              <a href="index.php" class="nav-link">Home</a>
           </li>
       </ul>
         </div>
