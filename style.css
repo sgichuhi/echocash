@@ -5,7 +5,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #7f8c8d;
-    background-color: #DACFBC;
+    background-image: url("data/cool-background.png");
+    /* background-color: #DACFBC; */
     margin-top: 2em;
 }
 
@@ -86,6 +87,10 @@ a {
 
 img {
     border-radius: 50%;
+}
+
+th, td {
+  text-align: center;
 }
 
 #intro {

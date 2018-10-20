@@ -41,10 +41,7 @@ setTimeout(function() {
     deleteContent(function() {
         addContent("Amazon Echo?", function() {
             deleteContent(function() {
-                addContent("a register?", function() {
-                    deleteContent(function() {
-                        addContent("Echo Cash!");
-                    })
+                addContent("Echo Cash!", function() {
                 });
             });
         });
