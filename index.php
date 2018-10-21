@@ -44,6 +44,9 @@
                   </div>
         </div>
 
+
+        <!-- <script src="node_modules/particlesjs/dist/particles.min.js"></script> -->
         <script src="script.js"></script>
+        <canvas class="background"></canvas>
 </body>
 </html>

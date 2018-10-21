@@ -11,7 +11,7 @@
             <a href="" class="nav-link">Register</a>
         </li>
         <li>
-            <a href="" class="nav-link">Login</a>
+            <a href="dashboard.php" class="nav-link">Login</a>
         </li>
           <li>
               <a href="team_info.php" class="nav-link">Team Info</a>
