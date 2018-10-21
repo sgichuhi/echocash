@@ -1,17 +1,16 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a
-class="navbar-brand" href="/echocash/dashboard.php">Echocash</a>
+class="navbar-brand" href="/echocash/dashboard.php">EchoCash</a>
 
   <div class="collapse navbar-collapse" id="navbarNavDropdown"> <ul class="navbar-nav">
     <?php
     $logged_in_options = "
-    <li class='nav-item active'> <a class='nav-link' href='/echocash/dashboard.php'>Echocash<span class='sr-only'>(current)</span></a></li>
+    <li class='nav-item active'> <a class='nav-link' href='/echocash/index.php'>EchoCash<span class='sr-only'>(current)</span></a></li>
     <li class='nav-item'> <a class='nav-link' href='/echocash/forms/bank_account.php'>My account</a> </li>
       <li class='nav-item dropdown'>
         <a class='nav-link dropdown-toggle' href='#' id='navbarDropdownMenuLink' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>My Profile</a>
 
         <div class='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
-          <p class='dropdown-item'>
-      ";
+          <p class='dropdown-item'>";
 
             $client_id = isset($_SESSION['client_id']) ? $_SESSION['client_id'] : null;
             $display_sql = <<<SQL

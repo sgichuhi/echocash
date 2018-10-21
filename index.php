@@ -1,38 +1,49 @@
-<?php
-session_start();
-include_once $_SERVER['DOCUMENT_ROOT'] . "/echocash/db.php";
+<html>
+<head>
+  <title>EchoCash - Home</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
 
-$action = isset($_REQUEST['action']) ? $_REQUEST['action'] : null;
+<body>
+  <div id="navbar">
+    <ul>
+      <li>
+          <a href="" class="nav-link">Register</a>
+      </li>
+      <li>
+          <a href="dashboard.php" class="nav-link">Login</a>
+      </li>
+        <li>
+            <a href="team_info.php" class="nav-link">Team Info</a>
+        </li>
+        <li>
+            <a href="our_hack.php" class="nav-link">Our Hack</a>
+        </li>
+        <li>
+            <a href="index.php" class="nav-link">Home</a>
+        </li>
+    </ul>
+        </div>
 
-$options = array (
-  #make array options here for each form we enter
-  #ex 'signup' => 'signup'
-  'signup' => 'signup',
-  'login' => 'login',
-  'logout' => 'logout'
-);
+        <br/>
 
-if (array_key_exists($action, $options)) {
-    $function = $options[$action];
-    call_user_func($function);
-} else {
-    header("Location: dashboard.php");
-}
+        <div id="about">
+            <h1 id="intro">It's <span id="fancy">a cash app?</span></h1>
+            <img src="data/echoCash.png" width="300" height="300"/>
+            <p>Welcome to EchoCash! A hack on Amazon Elexa to make digital cash
+               payments to your friends!</p>
+            <div id="signIn">
+                      <ul>
+                          <li>
+                              <a href="dashboard.php" class="signIn-link">Login</a>
+                          </li>
+                          <li>
+                              <a href="" class="signIn-link">Register</a>
+                          </li>
+                      </ul>
+                  </div>
+        </div>
 
-function signup() {
-  #set session, client id, and direct them to the dashboard.
-  #make a new record in the database (include a HereDoc and stuff like that)
-}
-
-
-function login() {
-  #same as signup, but don't make a new record in the database
-}
-
-function logout() {
-  #unset session
-}
-
-
-include_once $_SERVER['DOCUMENT_ROOT'] . '/echocash/tpl/app_footer.php';
-?>
+        <script src="script.js"></script>
+</body>
+</html>
