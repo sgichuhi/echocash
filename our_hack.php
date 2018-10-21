@@ -11,7 +11,7 @@
                   <a href="" class="nav-link">Register</a>
               </li>
               <li>
-                  <a href="" class="nav-link">Login</a>
+                  <a href="dashboard.php" class="nav-link">Login</a>
               </li>
                 <li>
                     <a href="team_info.php" class="nav-link">Team Info</a>
@@ -30,7 +30,7 @@
         <div id="about">
             <h1 id="intro">About <span id="fancy">Our Hack</span></h1>
             <img src="data/echoCash.png" width="300" height="300"/>
-            <p>Echo Cash is a method of paying and requesting digital cash to
+            <p>EchoCash is a method of paying and requesting digital cash to
                 friends, family, and vendors, but via voice commands given to
                 Amazon Elexa.</p>
                 <table align="center">
