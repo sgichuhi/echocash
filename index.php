@@ -29,7 +29,7 @@
 
         <div id="about">
             <h1 id="intro">It's <span id="fancy">a cash app?</span></h1>
-            <img src="data/echoCash.png" width="300" height="300"/>
+            <img src="data/echoCash.png" width="500" height="325"/>
             <p>Welcome to EchoCash! A hack on Amazon Elexa to make digital cash
                payments to your friends!</p>
             <div id="signIn">
@@ -47,6 +47,6 @@
 
         <!-- <script src="node_modules/particlesjs/dist/particles.min.js"></script> -->
         <script src="script.js"></script>
-        <canvas class="background"></canvas>
+        <!-- <canvas class="background2"></canvas> -->
 </body>
 </html>

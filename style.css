@@ -14,12 +14,12 @@ h1, h2, h3 {
     font-family: 'Slabo 27px', serif;
 }
 
-.background {
-position: fixed;
+.background2 {
+/* position: absolute;
 display: block;
 top: 0;
 left: 0;
-z-index: 0;
+z-index: 0; */
 }
 
 #navbar > ul {
